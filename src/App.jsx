@@ -1,5 +1,4 @@
 import "./App.css";
-import Navbar from "./components/navbar/Navbar";
 
 const navigationData = [
   {
