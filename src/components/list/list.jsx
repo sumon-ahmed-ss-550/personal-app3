@@ -1,10 +1,10 @@
 import React from "react";
 
-const List = () => {
+const List = ({ data }) => {
   return (
     <div>
       <li>
-        <a href="#"></a>
+        <a href="#">{data.name}</a>
       </li>
     </div>
   );
