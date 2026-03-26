@@ -37,8 +37,8 @@ function App() {
     <>
       <header className="py-6 px-4 bg-black border-b">
         <nav className="flex justify-between items-center">
-          <div onClick={() => setToggle(!toggle)}>
-            <div className="md:hidden p-1.5 rounded-[50%] border cursor-pointer">
+          <div className="md:hidden" onClick={() => setToggle(!toggle)}>
+            <div className=" p-1.5 rounded-[50%] border cursor-pointer">
               {toggle ? <X></X> : <Menu></Menu>}
             </div>
 
